@@ -66,7 +66,7 @@ const getInfo = async(event) => {
             datahide.classList.add('data_hide');
 
         }
-    }
+    } 
 }
 
 subBtn.addEventListener('click', getInfo);
