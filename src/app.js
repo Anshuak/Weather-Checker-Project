@@ -30,6 +30,8 @@ app.get("*", (req, res) => {
         errormsg: "Oops! PAGE NOT FOUND"
     });
 })
+
+
 app.listen(port, () => {
     console.log(`Listening to the server with Port = ${port} `);
 })
